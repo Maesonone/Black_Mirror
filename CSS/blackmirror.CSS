@@ -1,0 +1,24 @@
+/*******************************************************/
+/*      stylesheet for Black Mirror tribute site       */
+/*      author: Iván Caro Romero                       */
+/*      version: 1.0                                   */
+/*      comments: proyect for Lenguaje de Marcas       */
+/*******************************************************/
+@font-face {
+    font-family: fuente;
+    src: url(../FONTS/Sanseriffic.otf);
+}
+@font-face {
+    font-family: titulo;
+    src: url(../FONTS/FontsFree-Net-Proxima-Nova-Bold.otf);
+}
+body {margin:0; padding:0; /* para eliminar espacio superior en body */
+    background-color: #13131C; color: #dcd7e2;
+    font-family: fuente;}
+h1{font-family: titulo;
+    text-align: center;
+    color: #13131C;
+    text-shadow: 2px 2px 2px lightgray;}
+#wrapper {background-color: #565B64;
+width: 60%;     /* el contenido de la página se contrae tanto como indiquemos */
+margin:auto;}   /* se centra el contenido de la página */

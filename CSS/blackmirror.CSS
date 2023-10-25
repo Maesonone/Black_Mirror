@@ -19,6 +19,19 @@ h1{font-family: titulo;
     text-align: center;
     color: #13131C;
     text-shadow: 2px 2px 2px lightgray;}
+#hero{background-image: url(../IMG/hero\ section.jfif);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 90vh;}
+#hero button {margin-top: 63vh;
+    margin-left: 25vw;
+    border: none;
+    font-weight: bold;
+    padding: 6px 30px;
+    background-color: aliceblue;
+    border-radius: 10px;}
+#hero button:hover{background-color: rgb(177, 223, 223);}
+
 #wrapper {background-color: #565B64;
 width: 60%;     /* el contenido de la página se contrae tanto como indiquemos */
 margin:auto;}   /* se centra el contenido de la página */
